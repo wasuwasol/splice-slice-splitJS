@@ -1,0 +1,21 @@
+body{
+ margin: 0 auto;
+ background-color: darkslateblue;
+ display: table;
+}
+
+h1{
+    color: rgb(252, 130, 59);
+    font-size: 5em;
+    text-shadow: 3px 0 rgb(86, 238, 86),
+    0 2px rgb(86, 238, 86),
+    -4px 0 black,
+    0 -3px black;
+    display: table-caption;
+}
+
+@media(max-width:220px){
+    h1{
+        font-size: 3em;
+    }
+}
